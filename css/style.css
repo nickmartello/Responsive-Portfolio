@@ -1,0 +1,144 @@
+body, html {
+ height: 43%;
+ background-position: center;
+ background-repeat: repeat;
+ }
+
+header {
+ background: lightblue;
+ height: 75px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+section {
+ border: 2px solid gray;
+ background-color: white;
+ padding: 20px;
+}
+footer {
+ background: gray;
+ padding: 20px;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+ border-top: 2px solid orange;
+}
+#name {
+ color: white;
+ background: orange;
+ display: flex;
+ height: 100%;
+ flex-direction: column;
+ justify-content: center;
+ width: 200px;
+ text-align: center;
+ margin-left: 100px;
+}
+#links {
+ margin-right: 100px;
+ width: 200px;
+ display: flex;
+ justify-content: space-between;
+}
+.container {
+ margin: 0 100px;
+ height: 80vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+label {
+ color: #555
+}
+h1 {
+ margin: 0;
+ color: orange;
+}
+form {
+ display: flex;
+ flex-direction: column;
+ height: 175px;
+ justify-content: space-between;
+}
+.contact-form{
+ display: flex;
+ flex-direction: column;
+ height: 200px;
+ justify-content: space-between;
+}
+button {
+ display: inline-block;
+ border: none;
+ padding: 5px;
+ margin-top: 10px;
+ background: orange;
+ color: white;
+ font-size: 14px;
+ cursor: pointer;
+ text-align: center;
+}
+p {
+ display: inline;
+ line-height: 1.5;
+ font-size: 16px;
+}
+img {
+ float: left;    
+}
+.contact {
+ padding: 70px;
+}
+.image-container {
+ border: 1px solid black;
+ position: relative;
+ height: 150px;
+ width: 150px;
+ margin: 10px;
+}
+.label {
+ position: absolute;
+ bottom: 20px;
+ width: 100%;
+ background-color: orange;
+ text-align: center;
+}
+.portfolio-container_images {
+ display: flex;
+ flex-wrap: wrap; 
+}
+.portfolio-container {
+ width: 345px;
+}
+@media only screen and (max-width: 980px) {
+    body {
+    background-color: yellow;
+    }
+    section {
+    margin-top: 5%;
+    overflow: auto;
+    
+    }
+}
+@media only screen and (max-width: 768px) {
+    body {
+    background-color: wheat;
+    }
+    section {
+    margin-top: 5%;
+    overflow: auto;
+    
+    }
+}
+@media only screen and (max-width: 640px) {
+    body {
+    background-color: lightgreen;
+    }
+    section {
+    margin-top: 5%;
+    overflow: auto;
+    
+    }
+}
